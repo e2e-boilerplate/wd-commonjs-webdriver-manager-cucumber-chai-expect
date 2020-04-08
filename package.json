@@ -1,7 +1,7 @@
 {
   "author": "Girma Nigusse <xgirma@gmail.com>",
   "bugs": {
-    "url": "https://github.com/e2e-boilerplate/wd-commonjs-webdriver-manager-cucumber-chai-should/issues"
+    "url": "https://github.com/e2e-boilerplate/wd-commonjs-webdriver-manager-cucumber-chai-expect/issues"
   },
   "dependencies": {
     "chai": "4.2.0",
@@ -10,7 +10,7 @@
     "wd": "1.12.1",
     "webdriver-manager": "12.1.7"
   },
-  "description": "WD end-to-end test automation boilerplate. Using Commonjs, Webdriver-Manager, Cucumber, Chai and Should.",
+  "description": "WD end-to-end test automation boilerplate. Using Commonjs, Webdriver-Manager, Cucumber, Chai and Expect.",
   "devDependencies": {
     "eslint": "6.8.0",
     "eslint-config-airbnb-base": "14.1.0",
@@ -22,7 +22,7 @@
     "prettier": "2.0.4",
     "pretty-quick": "2.0.1"
   },
-  "homepage": "https://github.com/e2e-boilerplate/wd-commonjs-webdriver-manager-cucumber-chai-should#readme",
+  "homepage": "https://github.com/e2e-boilerplate/wd-commonjs-webdriver-manager-cucumber-chai-expect#readme",
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged --allow-empty"
@@ -36,9 +36,9 @@
     "e2e",
     "e2e tests",
     "example",
+    "expect",
     "integration test",
     "selenium-webdriver",
-    "should",
     "wd",
     "webdriver manager"
   ],
@@ -48,10 +48,10 @@
       "prettier --write"
     ]
   },
-  "name": "wd-commonjs-webdriver-manager-cucumber-chai-should",
+  "name": "wd-commonjs-webdriver-manager-cucumber-chai-expect",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/e2e-boilerplate/wd-commonjs-webdriver-manager-cucumber-chai-should.git"
+    "url": "git+https://github.com/e2e-boilerplate/wd-commonjs-webdriver-manager-cucumber-chai-expect.git"
   },
   "scripts": {
     "lint": "npx eslint --ext .js ./ --fix",
