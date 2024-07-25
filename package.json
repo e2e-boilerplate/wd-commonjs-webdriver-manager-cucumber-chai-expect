@@ -4,7 +4,7 @@
     "url": "https://github.com/e2e-boilerplate/wd-commonjs-webdriver-manager-cucumber-chai-expect/issues"
   },
   "dependencies": {
-    "chai": "4.3.4",
+    "chai": "4.5.0",
     "chai-as-promised": "7.1.1",
     "cucumber": "6.0.5",
     "wd": "1.14.0",
